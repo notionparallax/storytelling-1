@@ -253,10 +253,23 @@ var config = {
             image: 'here.jpg',
             description: "and now I'm here with you nice people",
             location: {
-                center: { lon: 151.1610893102926, lat: -33.90405459036874 },
-                zoom: 12,
+                center: { lon: 151.20747107062905, lat: -33.87176427440331 },
+                zoom: 15,
                 pitch: 0.00,
                 bearing: 0.00
+            },
+        }
+        {
+            id: 'righthere',
+            alignment: 'right',
+            title: '❤',
+            image: '',
+            description: "",
+            location: {
+                center: { lon: 151.20747107062905, lat: -33.87176427440331 },
+                zoom: 15,
+                pitch: 60.00,
+                bearing: 0
             },
         }
 
